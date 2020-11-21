@@ -4,6 +4,7 @@ import IntroSection from "../components/IntroSection";
 import ToyItem from "./ToyItem";
 
 import nailImg from "../img/nailGif.gif";
+import newsimg from "../img/ezgif.com-gif-maker.gif";
 
 const ToyApp = () => (
   <div className="toy__container">
@@ -16,6 +17,7 @@ const ToyApp = () => (
         desc="Nail"
         img={nailImg}
       />
+      <ToyItem desc="newssy" img={newsimg} />
     </div>
   </div>
 );
