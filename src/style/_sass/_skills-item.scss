@@ -88,3 +88,11 @@
 .bootstrap {
     @include getlitgh($bootstrap)
 }
+
+.git {
+    @include getlitgh($git)
+}
+
+.clipboard {
+    @include getlitgh($test)
+}

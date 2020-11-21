@@ -9,7 +9,11 @@ const Skills = () => (
     <div className="col-md-12">
       <SkillIntro />
       <div className="card-columns">
-        <SkillsItem icon="fa-html5" describe="" name="Html" />
+        <SkillsItem
+          icon="fa-html5"
+          describe="Familiar with semantic tags"
+          name="Html"
+        />
         <SkillsItem
           icon="fa-css3 "
           describe="Advance Selectore , Responsive Design , Animations and movement , Flexbox , Grid , Box model .etc"
@@ -17,12 +21,12 @@ const Skills = () => (
         />
         <SkillsItem
           icon="fa-js"
-          describe="Comtrole Program flow , DOM Mainipulations , Fetch Api Ajax Call (old day of XHR) , ES6 / ES7 , Modular js , Hoisting , scop , OOP in js & prototype , Event bubbling , Primitive Type & Refrence Type & diff .etc"
+          describe="Control Program flow , DOM Manipulating , Fetch Api and Ajax Call (and old day of XHR) , ES6 / ES7 , Modular js , Hoisting , scop , OOP in js & prototype , Event bubbling , Primitive & Refrence Type , .etc"
           name="Js"
         />
         <SkillsItem
           img="https://img.icons8.com/ios/150/000000/redux.png"
-          describe="Reason behind the Redux and problem that solves, Flux pattern & one way data flow, Reducers, Actions & Actions Type & Actions Generator, File Srtucturing (Ducks pattern), Srtucturing store & Normilaize, Redux Toolkit (slice, combineReducer), Reselect & memorization, Redux devtool, connect the store to React Components, Persistore"
+          describe="Reason behind the Redux and problem that solves, Flux pattern & one way data flow, Reducers, Actions & Actions Type & Actions Generator, File Srtucturing (Ducks pattern), Srtucturing store & Normilaize, Redux Toolkit (slice, write mutted code , .etc), Reselect & memorization, Redux devtool, connect the store to React Components, Persistore , Middlewere , Asynchronous actions"
           classes="redux"
           name="Redux"
         />
@@ -33,7 +37,7 @@ const Skills = () => (
           describe="Handling form in React in Easiest way"
         />
         <SkillsItem
-          describe="Functional & class base component, conditional rendering, LifeCycle, HOCs, Hooks, context API, Refs, Handling Form with two way binding, state Management , PropType"
+          describe="Functional & class base component, conditional rendering, LifeCycle, HOCs, Hooks, context API, Refs, Handling Form ,state Management , PropType"
           icon="fa-react"
           name="React"
         />
@@ -47,6 +51,17 @@ const Skills = () => (
           name="bootstrap"
           icon="fa-bootstrap"
           describe="Grid system , Base colors , Responsive Layout , Alignment , Form Classes , Card , Table Classes , .etc"
+        />
+        <SkillsItem
+          name="Git"
+          classes="git"
+          img="https://img.icons8.com/color/96/000000/git.png"
+          describe="most of git commands , git stage & unstage , Branches , Cloning & Remote , Publish to Github "
+        />
+        <SkillsItem
+          name="Testing"
+          icon="far fa-clipboard"
+          describe="unit test in isolation , components testing with enzyme"
         />
       </div>
     </div>
