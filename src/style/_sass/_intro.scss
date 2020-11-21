@@ -1,0 +1,41 @@
+.intro__container {
+    p {
+        font-weight: 700;
+        font-size: 5.6rem;
+        line-height: 76px;
+        margin-top: 30px;
+        animation: fadeup 0.6s forwards;
+        opacity: 0;
+
+
+
+        span {
+            transition: all .5s;
+            padding: 0px 5px;
+            cursor: pointer;
+
+            &:hover {
+                padding: 0px 20px;
+                color: $logo-color;
+            }
+        }
+    }
+
+    .intro__box {
+        margin-left: auto;
+        z-index: -1;
+        margin-top: -10%;
+        border-radius: 4px;
+        width: 50%;
+        height: 10em;
+        display: block;
+        background: radial-gradient(circle at 50% 0, #df4a17b5, rgba(255, 0, 0, 0) 70.71%), radial-gradient(circle at 6.7% 75%, #0068bab5, rgba(0, 0, 255, 0) 70.71%), radial-gradient(circle at 93.3% 75%, #f3ba2cb5, rgba(0, 255, 0, 0) 70.71%) beige;
+    }
+}
+
+@keyframes fadeup {
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,8 @@
+@import './logo';
+@import './header-links';
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

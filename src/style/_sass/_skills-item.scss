@@ -1,0 +1,90 @@
+.card-columns {
+    column-count: 2;
+    margin: 50px 0;
+    color: $base-font-color;
+
+    img {
+        width: 4rem;
+    }
+}
+
+.cord__container {
+    border: none !important;
+}
+
+
+
+.card__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin getlitgh ($color) {
+    background-color: lighten($color, $amount: 23);
+    font-size: 4rem !important;
+    font-weight: 600;
+
+    i {
+        color: lighten($color, $amount: 10);
+    }
+
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: lighten($color, $amount: 15);
+    }
+
+    &:hover .card__flex p {
+        text-decoration: underline;
+    }
+
+    .card__flex p {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .card-text {
+        font-size: 2rem !important;
+    }
+}
+
+.html5 {
+    @include getlitgh($html);
+
+}
+
+.css3 {
+    @include getlitgh($css);
+
+}
+
+.js {
+    @include getlitgh($js);
+
+}
+
+.react {
+    @include getlitgh($react);
+
+}
+
+.redux {
+    @include getlitgh($redux)
+}
+
+.formik {
+    @include getlitgh($base-font-color)
+}
+
+.sass {
+    @include getlitgh($sass);
+
+    img {
+        width: 4rem;
+    }
+}
+
+.bootstrap {
+    @include getlitgh($bootstrap)
+}

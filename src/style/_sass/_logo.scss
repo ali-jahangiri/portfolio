@@ -1,0 +1,16 @@
+.header__logo {
+    p {
+        cursor: pointer;
+        padding: 10px;
+        font-family: 'Markazi Text', serif !important;
+        font-weight: 700;
+        font-size: 4.5rem;
+        margin-top: -28px;
+        color: $logo-color;
+        transition: all .6s;
+
+        &:hover {
+            color: $hover-home-link;
+        }
+    }
+}
