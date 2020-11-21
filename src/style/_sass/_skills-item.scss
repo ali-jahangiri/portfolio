@@ -32,7 +32,7 @@
     transition: background-color 0.5s ease;
 
     &:hover {
-        background-color: lighten($color, $amount: 15);
+        background-color: lighten($color, $amount: 18);
     }
 
     &:hover .card__flex p {
