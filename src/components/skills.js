@@ -2,12 +2,14 @@ import React from "react";
 import SkillsItem from "./skills-item";
 
 import "../img/sss.svg";
-import SkillIntro from "./skill-intro";
+import IntroSection from "./IntroSection";
 
 const Skills = () => (
   <div className="row">
     <div className="col-md-12">
-      <SkillIntro />
+      <IntroSection>
+        <p>Dive deep into what I already know</p>
+      </IntroSection>
       <div className="card-columns">
         <SkillsItem
           icon="fa-html5"
