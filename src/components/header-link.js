@@ -4,7 +4,7 @@ const LinksHeader = () => (
   <div className="header__links">
     <NavHashLink to="/#works">works</NavHashLink>
     <NavHashLink to="/#skill-intro">Skills</NavHashLink>
-    <NavHashLink to="/#contact">Contact</NavHashLink>
+    <NavHashLink to="/#contact">way to Contact</NavHashLink>
   </div>
 );
 export default LinksHeader;
