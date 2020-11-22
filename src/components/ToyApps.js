@@ -7,7 +7,7 @@ import nailImg from "../img/nailGif.gif";
 import newsimg from "../img/ezgif.com-gif-maker.gif";
 
 const ToyApp = () => (
-  <div className="toy__container">
+  <div id="works" className="toy__container">
     <IntroSection>
       <p>and my app was created until Now</p>
     </IntroSection>
@@ -17,7 +17,11 @@ const ToyApp = () => (
         desc="Nail"
         img={nailImg}
       />
-      <ToyItem desc="newssy" img={newsimg} />
+      <ToyItem
+        desc="newssy"
+        link="https://github.com/ali-jahangiri/newssy"
+        img={newsimg}
+      />
     </div>
   </div>
 );
