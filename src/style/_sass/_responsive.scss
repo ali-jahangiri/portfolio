@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1 !important;
+    }
+
+    .intro__container p {
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
