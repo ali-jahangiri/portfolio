@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a1c918d987a3bcaf4b13",
-    "url": "/portfolio/static/css/main.5b20ad3b.chunk.css"
+    "revision": "ac802bc82d4aaeabc5a3",
+    "url": "/portfolio/static/css/main.295c1269.chunk.css"
   },
   {
-    "revision": "a1c918d987a3bcaf4b13",
-    "url": "/portfolio/static/js/main.61e348de.chunk.js"
+    "revision": "ac802bc82d4aaeabc5a3",
+    "url": "/portfolio/static/js/main.434ca5de.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "caa28f0b1d7d0470d6bb",
-    "url": "/portfolio/static/js/2.2643cc3f.chunk.js"
+    "revision": "f1d1490459cf88ce94fa",
+    "url": "/portfolio/static/js/2.041817a1.chunk.js"
   },
   {
     "revision": "b6a81fe3034c532b32bfad0ee027d1df",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ezgif.com-gif-maker.44c6ea91.gif"
   },
   {
-    "revision": "3f245d06ae8e5e997c588ea0f09d2629",
+    "revision": "cbe5fba8b07bd85f240a1005064e8d90",
     "url": "/portfolio/index.html"
   }
 ];
