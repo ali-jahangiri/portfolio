@@ -5,6 +5,7 @@ import ToyItem from "./ToyItem";
 
 import nailImg from "../img/nailGif.gif";
 import newsimg from "../img/ezgif.com-gif-maker.gif";
+import ecommerce from "../img/Untitled Project.gif";
 
 const ToyApp = () => (
   <div id="works" className="toy__container">
@@ -21,6 +22,11 @@ const ToyApp = () => (
         desc="newssy"
         link="https://github.com/ali-jahangiri/newssy"
         img={newsimg}
+      />
+      <ToyItem
+        desc="e commerce"
+        link="https://ali-jahangiri.github.io/e-commerce-app/"
+        img={ecommerce}
       />
     </div>
   </div>
